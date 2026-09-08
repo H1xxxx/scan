@@ -1,0 +1,45 @@
+{
+  "telegram": {
+    "bot_token": "",
+    "chat_id": ""
+  },
+  "scanning_features": {
+    "aws_main_scan": true,
+    "github_token_deep_scan": true,
+    "smtp_credentials_scan": true
+  },
+  "aws_checks": {
+    "ses_quota_check": true,
+    "sns_limit_check": true,
+    "fargate_limit_check": true,
+    "federation_console_url": true
+  },
+  "api_validation": {
+    "openai": true,
+    "anthropic": true,
+    "stripe": true,
+    "gcp_api_key": true,
+    "sendgrid": true,
+    "mailgun": true,
+    "twilio": true,
+    "nexmo": true,
+    "telnyx": true,
+    "messagebird": true,
+    "github": true
+  },
+  "features": {
+    "brevo": true,
+    "xsmtp": true,
+    "tencent": true,
+    "mailgun": true,
+    "new_mailgun": true,
+    "mandrill": true,
+    "mailersend": true,
+    "github": true,
+    "twilio": true,
+    "nexmo": true,
+    "telnyx": true,
+    "smtp": true
+  },
+  "smtp_test_email": ""
+}
