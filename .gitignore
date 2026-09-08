@@ -1,0 +1,19 @@
+# Binaries
+ravenscan
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go
+vendor/
+*.test
+*.out
+
+# Capture/temp files
+scripts/.capture_*.txt
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
